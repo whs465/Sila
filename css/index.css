@@ -34,11 +34,11 @@
   --caption: 12px/20px var(--fontBase);
 
   --gradient: radial-gradient(
-      41.48% 11.48% at 2.38% 8.52%,
-      #7b83da 0%,
-      #04001e 100%
+      41.48% 14.5% at 2.38% 8.52%,
+      #8588ae 0%,
+      rgba(255, 255, 255, 0) 110%
     ),
-    linear-gradient(135deg, #72edf2 0%, #09203f 74%);
+    linear-gradient(135deg, #373b6d 0%, #061528 70%);
   --primary: #ffffff;
   --secondary: #ef0070;
   --white: #ffffcc;
