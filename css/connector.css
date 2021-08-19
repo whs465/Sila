@@ -1,0 +1,29 @@
+.connector {
+  max-inline-size: 900px;
+  margin-inline: auto;
+  padding-block: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  color: var(--primary);
+  font: var(--headline5);
+  text-align: center;
+}
+
+.connector p:first-child {
+  font: var(--body3);
+}
+
+.connector img {
+  inline-size: 80px;
+  block-size: 80px;
+}
+
+@media screen and (min-width: 768px) {
+  .connector {
+    padding-block: 200px;
+  }
+  .connector p:first-child {
+    font: var(--body4);
+  }
+}

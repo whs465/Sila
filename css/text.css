@@ -1,0 +1,15 @@
+.title {
+  padding-inline: 8px;
+  padding-block: 4px;
+  background-color: var(--primary);
+  box-shadow: -4px 4px 0px #ffffff;
+  color: var(--white);
+  font: var(--headline5);
+  text-decoration: none;
+}
+
+.description {
+  max-inline-size: 450px;
+  color: var(--primary);
+  font: var(--body1);
+}

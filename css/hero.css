@@ -1,0 +1,51 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  margin-block: 16px;
+}
+
+.hero-image {
+  text-align: center;
+}
+
+.hero-image img {
+  inline-size: 328px;
+  block-size: 330px;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-block-start: 16px;
+}
+
+.hero-title {
+  color: rgb(42, 250, 223);
+  font: var(--headline3);
+}
+
+.hero-title span:first-child {
+  display: block;
+  font: var(--headline5);
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    flex-direction: row;
+    gap: 60px;
+  }
+
+  .hero-image {
+    flex: 1;
+    order: 2;
+    text-align: end;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-image img {
+    inline-size: 500px;
+    block-size: 504px;
+  }
+}

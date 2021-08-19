@@ -1,0 +1,57 @@
+@import './header.css';
+@import './menu.css';
+@import './hero.css';
+@import './connector.css';
+@import './project.css';
+@import './testimony.css';
+@import './contact.css';
+@import './footer.css';
+@import './button.css';
+@import './icons.css';
+@import './text.css';
+@import './wrapper.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --fontBase: 'Poppins', sans-serif;
+  --logo: 900 24px/39px var(--fontBase);
+  --headline1: bold 95px/154px var(--fontBase);
+  --headline2: bold 59px/95px var(--fontBase);
+  --headline3: bold 48px/78px var(--fontBase);
+  --headline4: bold 34px/55px var(--fontBase);
+  --headline5: bold 24px/39px var(--fontBase);
+  --body1: 16px/26px var(--fontBase);
+  --body2: 14px/23px var(--fontBase);
+  --body3: 24px/39px var(--fontBase);
+  --body4: 34px/55px var(--fontBase);
+  --body5: bold 16px/26px var(--fontBase);
+  --button: bold 14px/22px var(--fontBase);
+  --caption: 12px/20px var(--fontBase);
+
+  --gradient: radial-gradient(
+      41.48% 11.48% at 2.38% 8.52%,
+      #7b83da 0%,
+      #04001e 100%
+    ),
+    linear-gradient(135deg, #72edf2 0%, #09203f 74%);
+  --primary: #ffffff;
+  --secondary: #ef0070;
+  --white: #ffffcc;
+  --purple: #310a90;
+
+  // background-color: #f8f9d2;
+  // background-image: linear-gradient(315deg, #f8f9d2 0%, #e8dbfc 74%);
+}
+
+body {
+  background: var(--gradient);
+  min-block-size: 100vh;
+  font: var(--body1);
+  color: var(--purple);
+  margin: 0;
+}

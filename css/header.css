@@ -1,0 +1,26 @@
+.header {
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(15px);
+  z-index: 2;
+}
+
+.header-content {
+  block-size: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logotext {
+  color: var(--primary);
+  font: var(--logo);
+  text-transform: uppercase;
+}
+
+.logo {
+  width: 180px;
+  height: auto;
+  object-fit: cover;
+  cursor: pointer;
+}

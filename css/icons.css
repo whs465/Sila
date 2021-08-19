@@ -1,0 +1,21 @@
+.icons {
+  display: flex;
+  gap: 16px;
+  margin-block-end: 24px;
+}
+
+.button-icon {
+  display: inline-block;
+  inline-size: 44px;
+  block-size: 44px;
+  padding-inline: 10px;
+  padding-block: 10px;
+  text-decoration: none;
+  background-color: #1712e1;
+  border: 2px solid #ffffff;
+}
+
+.button-icon img {
+  block-size: 100%;
+  inline-size: 100%;
+}
