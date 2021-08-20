@@ -55,3 +55,21 @@ body {
   color: var(--purple);
   margin: 0;
 }
+
+.colortext {
+  text-transform: capitalize;
+  background: linear-gradient(-45deg, #eeaa52, #e73c6f, #2394d5, #330867);
+  background-size: 200% 200%;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 2px transparent;
+  animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
