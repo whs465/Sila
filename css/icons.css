@@ -19,3 +19,38 @@
   block-size: 100%;
   inline-size: 100%;
 }
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #373b6d 0%,
+    #348ac7 51%,
+    #373b6d 100%
+  );
+}
+.btn-grad {
+  display: inline-block;
+  inline-size: 44px;
+  block-size: 44px;
+  padding-inline: 10px;
+  padding-block: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 12px #eee;
+  border-radius: 5px;
+  display: block;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-grad img {
+  block-size: 100%;
+  inline-size: 100%;
+}
